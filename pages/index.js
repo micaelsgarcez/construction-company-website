@@ -149,7 +149,7 @@ export default function Home() {
         <title>Bookshop</title>
       </Head>
 
-      <main className='container mx-auto max-w-[1152px] px-4'>
+      <main className='container mx-auto max-w-[1202px] px-4'>
         <Navigation />
         <Banner />
         <section className='pt-20 md:pt-44 pb-24 flex items-start  flex-col md:flex-row'>

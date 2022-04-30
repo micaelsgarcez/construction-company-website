@@ -11,9 +11,26 @@ textarea {
   color: #6b6b6b;
 }
 
-.open-sans {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+.hero-image {
+  transform: scale(1.3);
+  margin-top: 1.5625vw;
+}
+
+nav a.active {
+  position: relative;
+}
+
+nav a.active:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .shadow-promo > * {
