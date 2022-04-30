@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 import Navigation from '/components/Nav'
 import Banner from '/components/Banner'
+import Experience from '/components/Experience'
 import FadeIn from '/components/Motion/FadeIn'
 
 export default function Home() {
@@ -146,12 +147,13 @@ export default function Home() {
   return (
     <div className='overflow-hidden'>
       <Head>
-        <title>Bookshop</title>
+        <title>Construction Company Website</title>
       </Head>
 
       <main className='container mx-auto max-w-[1202px] px-4'>
         <Navigation />
         <Banner />
+        <Experience />
         <section className='pt-20 md:pt-44 pb-24 flex items-start  flex-col md:flex-row'>
           <aside className='flex-none w-48 bg-before relative mb-10'>
             <ul>

@@ -89,7 +89,7 @@ export default function Banner() {
           </FadeIn>
         </div>
       </section>
-      <div className='grid grid-cols-5 gap-[5.2vw] items-center bg-lightGray rounded-full p-20 mt-28'>
+      <div className='grid grid-cols-5 gap-[5.2vw] items-center bg-lightGray rounded-full p-20 mt-28 mb-28'>
         <div>
           <Image
             src='/images/client-1.png'
