@@ -1,6 +1,7 @@
 import Image from 'next/image'
 
-import FadeIn from '../Motion/FadeIn'
+import FadeIn from 'components/Motion/FadeIn'
+import Button from 'components/Button'
 
 export default function Banner() {
   return (
@@ -16,18 +17,10 @@ export default function Banner() {
             curiosity day assurance bed necessary.
           </p>
           <div className='flex mb-24'>
-            <a
-              className='py-5 w-full max-w-[214px] text-center mr-4 bg-primary text-white border border-primary rounded-tl-[40px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[40px]'
-              href='#'
-            >
-              Explore
-            </a>
-            <a
-              className='py-5 w-full max-w-[214px] text-center bg-white text-primary border border-primary rounded-tl-[40px] rounded-tr-[5px] rounded-bl-[5px] rounded-br-[40px]'
-              href='#'
-            >
+            <Button href='#'>Explore</Button>
+            <Button href='#' outline={true}>
               Contact Us
-            </a>
+            </Button>
           </div>
           <div className='flex items-center justify-between mb-5'>
             <div className='relative'>
